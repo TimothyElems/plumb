@@ -1,0 +1,12 @@
+data/raw/
+data/book.parquet
+.venv/
+__pycache__/
+.pytest_cache/
+data/source/
+.DS_Store
+*.egg-info/
+# Anything computed from Coinbase data stays on this machine (Market Data Terms: no derived works shown to third parties).
+docs/local/
+report/local/
+figures/

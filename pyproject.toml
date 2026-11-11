@@ -1,0 +1,14 @@
+[project]
+name = "plumb"
+version = "0.1.0"
+description = "Test a published order-book spread statistic against a book you recorded yourself."
+requires-python = ">=3.10"
+dependencies = ["polars>=1.0", "numpy>=1.26", "websockets>=12", "certifi>=2024.2"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+plot = ["matplotlib>=3.8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
